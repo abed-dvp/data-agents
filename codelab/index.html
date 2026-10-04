@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Abed Codelab — AI Agent Crash Course</title>
+<link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+<header class="topbar">
+<button id="menuButton" class="icon">☰</button>
+<div class="brand"><span class="logo">A</span><div><strong>Abed Codelab</strong><small>AI Agent Crash Course</small></div></div>
+<div class="actions"><a href="../README.md">README</a><a href="https://www.youtube.com/playlist?list=PLIivdWyY5sqLNeW9MPxldbbevMEJGMWBG" target="_blank">Playlist</a><button id="themeButton" class="icon">◐</button></div>
+</header>
+<div class="progress-shell"><div id="progressBar"></div></div>
+<div class="layout">
+<aside id="sidebar"><div class="sidehead"><p class="eyebrow">29 STEPS</p><h2>AI Agents</h2><p id="progressText"></p></div><nav id="nav"></nav><button id="resetProgress" class="textbtn">Reset progress</button></aside>
+<main><article>
+<div class="meta"><span id="stepLabel"></span><span id="sectionLabel"></span></div>
+<h1 id="title"></h1><p id="learn" class="lead"></p>
+<section><h2>Learn</h2><ul id="bullets"></ul></section>
+<section><div class="sectionhead"><h2>Example</h2><button class="textbtn" id="copyExample">Copy</button></div><pre><code id="example"></code></pre></section>
+<section class="practice"><p class="eyebrow">YOUR TURN</p><h2>Practice</h2><p id="challenge"></p><textarea id="answer" spellcheck="false"></textarea><div class="btns"><button id="check" class="primary">✓ Check answer</button><button id="reset" class="secondary">Reset</button><button id="showSolution" class="secondary">Show solution</button></div><div id="feedback" hidden></div><div id="solutionPanel" hidden><strong>One possible solution</strong><pre><code id="solution"></code></pre></div></section>
+<section class="takeaway"><p class="eyebrow">KEY TAKEAWAY</p><p id="takeaway"></p></section>
+<footer><button id="prev" class="secondary">← Previous</button><button id="complete" class="success">Mark complete</button><button id="next" class="primary">Next →</button></footer>
+</article></main></div>
+<script src="./steps.js"></script><script src="./app.js"></script>
+</body></html>
